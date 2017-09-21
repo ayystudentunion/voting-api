@@ -49,7 +49,7 @@ module Haka
         end
 
         # Return a string to preserve a possible leading zero (eg "012345")
-        raw.split(":").last.delete('^0-9')
+        raw.split(":").last.delete('^a-zA-Z0-9')
       end
 
     end
