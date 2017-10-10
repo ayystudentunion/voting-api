@@ -26,6 +26,15 @@ namespace :db do
 
         Faculty.create! code: "H74", name: 'Svenska social- och kommunalhögskolan'
         Faculty.create! code: "Y01", name: 'Viikin laaja-alaiset koulutukset'
+
+        Faculty.create! code: "ELEC", name: 'Sähkötekniikan korkeakoulu'
+        Faculty.create! code: "BIZ", name: 'Kauppakorkeakoulu'
+        Faculty.create! code: "ARTS", name: 'Taiteiden ja suunnittelun korkeakoulu'
+        Faculty.create! code: "SCI", name: 'Perustieteiden korkeakoulu'
+        Faculty.create! code: "ENG", name: 'Insinööritieteiden korkeakoulu'
+        Faculty.create! code: "CHEM", name: 'Kemian tekniikan korkeakoulu'
+        Faculty.create! code: "XXX", name: 'Tuntematon'
+
       end
 
       desc 'departments'
