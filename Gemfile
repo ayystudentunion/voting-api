@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1' # This is for Heroku, it's defined also in .ruby-version for RVM
+ruby '2.5.1' # This is for Heroku, it's defined also in .ruby-version for RVM
 
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
@@ -16,7 +16,7 @@ gem 'jwt' # API tokens
 gem 'pry-rails' # Better Rails console
 gem 'pry-highlight' # pretty print json in console, usage: ">>"
 gem 'rollbar' # Error reporting to Rollbar.com
-gem 'oj' # Rollbar suggestion for JSON serialization if not using JRuby
+gem 'oj', '~> 3.9.1' # Rollbar suggestion for JSON serialization if not using JRuby
 gem 'ruby-saml' # Haka authentication
 gem 'delayed_job_active_record' # background jobs, eg. email sending
 gem 'jbuilder' # JSON builder
