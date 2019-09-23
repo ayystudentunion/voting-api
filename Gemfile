@@ -4,7 +4,7 @@ ruby '2.5.1' # This is for Heroku, it's defined also in .ruby-version for RVM
 
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
-gem 'puma', '~> 3.6.0' # application server
+gem 'puma', '~> 4.2.0' # application server
 
 gem 'grape' # API
 gem 'grape-entity'
