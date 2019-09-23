@@ -175,8 +175,7 @@ GEM
       pry
     pry-rails (0.3.4)
       pry (>= 0.9.10)
-    puma (4.2.0)
-      nio4r (~> 2.0)
+    puma (3.7.1)
     rack (2.0.7)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -304,7 +303,7 @@ DEPENDENCIES
   pg
   pry-highlight
   pry-rails
-  puma (~> 4.2.0)
+  puma (~> 3.7.0)
   rack-cors
   rails (~> 5.0.0, >= 5.0.0.1)
   rollbar
